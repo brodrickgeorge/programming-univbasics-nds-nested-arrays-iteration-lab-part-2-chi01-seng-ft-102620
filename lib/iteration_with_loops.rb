@@ -20,9 +20,8 @@ end
 
 outer_results = []
 row_index = 0
-while row_index < spice_rack.count do
+while row_index < src.count do
   element_index = 0
-  longest_string_element = ""
   while element_index < spice_rack[row_index].count do
  
     if spice_rack[row_index][element_index].length > longest_string_element.length
