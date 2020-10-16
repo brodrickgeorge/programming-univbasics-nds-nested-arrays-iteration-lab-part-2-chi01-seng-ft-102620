@@ -13,23 +13,17 @@ def find_min_in_nested_arrays(src)
   end
 end
 
-
-
-
-
-
-outer_results = []
+outer_index = []
 row_index = 0
-while row_index < src.count do
-  element_index = 0
-  while element_index < src[row_index].count do
- 
-    if 
-      longest_string_element = spice_rack[row_index][element_index]
+  while row_index < src.count do
+    element_index = 0
+    while element_index < src[row_index].count do
+      if src[row_index][element_index].even? 
+        p src[row_index][element_index]
+      
+      end
+      element_index += 1
     end
-    element_index += 1
+    
+    row_index += 1
   end
- 
-  outer_results << longest_string_element
-  row_index += 1
-end
