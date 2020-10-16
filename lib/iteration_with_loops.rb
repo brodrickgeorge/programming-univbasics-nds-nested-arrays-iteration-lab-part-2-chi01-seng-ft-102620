@@ -22,6 +22,7 @@ row_index = 0
         p src[row_index][element_index]
       
       end
+      min_num << 
       element_index += 1
     end
     
