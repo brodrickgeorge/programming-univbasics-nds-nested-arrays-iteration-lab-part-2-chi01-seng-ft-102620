@@ -24,7 +24,7 @@ while row_index < src.count do
   element_index = 0
   while element_index < src[row_index].count do
  
-    if src[row_index][element_index].length > longest_string_element.length
+    if 
       longest_string_element = spice_rack[row_index][element_index]
     end
     element_index += 1
